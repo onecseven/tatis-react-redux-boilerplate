@@ -8,4 +8,4 @@
 
 ## Other useful commands
 
-- `npm run dist` - to generate the production version of the application's script(s)
+- `npm run dist` - to generate the production version
