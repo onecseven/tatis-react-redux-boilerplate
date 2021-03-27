@@ -20,6 +20,6 @@ export const Slice = createSlice({
 })
 
 // Action creators are generated for each case reducer function
-export const { remove, add, update } = Slice
+export const { remove, add, update } = Slice.actions
 
 export default Slice.reducer
