@@ -4,7 +4,7 @@
   "description": "simple react redux boilerplate to get quickly into hacking.",
   "main": "index.js",
   "scripts": {
-    "serve": "webpack serve --config webpack.config.js --content-base src/"
+    "serve": "webpack serve --config webpack.config.js --content-base src/",
     "dist": "webpack --mode production"
   },
 
