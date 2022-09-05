@@ -1,8 +1,9 @@
-import { configureStore } from '@reduxjs/toolkit'
+import { configureStore } from "@reduxjs/toolkit"
+import InputReducer from "./components/InputSlice"
 
 export default configureStore({
   reducer: {
-    preloadedState: {
-    }
-  }
+    input: InputReducer,
+    preloadedState: {},
+  },
 })

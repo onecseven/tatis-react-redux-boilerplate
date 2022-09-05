@@ -1,15 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit"
 
-
-
 export const Slice = createSlice({
-  name: "",
-  initialState: {
-  },
+  name: "input",
+  initialState: {},
   reducers: {
     add: (state, action) => {
       return state
-        },
+    },
     remove: (state, action) => {
       return state
     },
